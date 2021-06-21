@@ -20,7 +20,7 @@ class User extends Authenticatable
         'email',
         'password',
         'locked_flg',
-        'error_count',
+        'error_count'
     ];
 
     /**
