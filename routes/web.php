@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\Auth\AuthController;
+use App\Http\Controllers\Auth\AuthController;
 use Laravel\Ui\AuthCommand;
 
 /*
