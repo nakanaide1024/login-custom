@@ -9,6 +9,7 @@
   <script src="{{ asset('js/app.js') }}" defer></script>
   <!-- Styles -->
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/signin.css') }}">
 </head>
 <body>
   <form class="form-signin">
