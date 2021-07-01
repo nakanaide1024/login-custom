@@ -18,3 +18,7 @@ use Laravel\Ui\AuthCommand;
 Route::get('/', [AuthController::class, 'showLogin'])->name('showLogin');
 
 Route::post('Login', [AuthController::class, 'login'])->name('login');
+
+Route::get('home',function(){
+  return view('home');
+})->name('home');
