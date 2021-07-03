@@ -18,7 +18,7 @@ use Laravel\Ui\AuthCommand;
 
 Route::group(['middleware' => ['guest']], function(){
   //ログインホーム表示
-  Route::get('/', [AuthController::class, 'showLogin'])->name('showLogin');
+  Route::get('/', [AuthController::class, 'showLogin'])->name('login.show');
   //ログイン処理
   Route::post('Login', [AuthController::class, 'login'])->name('login');
 });
